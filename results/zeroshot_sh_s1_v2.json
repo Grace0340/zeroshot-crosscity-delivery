@@ -1,0 +1,20 @@
+{
+  "target": "sh",
+  "sources": [
+    "hz",
+    "cq",
+    "yt"
+  ],
+  "train_minutes": 9.8,
+  "point": {
+    "MAE": 10.0886,
+    "RMSE": 21.0993
+  },
+  "interval_naive": {
+    "coverage": 0.7516,
+    "width": 14.862,
+    "q_hat": 0.004
+  },
+  "n_calib": 500000,
+  "alpha": 0.1
+}

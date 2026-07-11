@@ -1,0 +1,166 @@
+{
+  "sh": {
+    "blend_mae": {
+      "a0": 9.8519,
+      "a0.25": 9.4312,
+      "a0.5": 9.0686,
+      "a0.75": 8.7646,
+      "a1": 8.5694
+    },
+    "interval_ours": {
+      "cov_day1_3": 0.8938,
+      "cov_overall": 0.9015,
+      "cov_min_region": 0.5778,
+      "width_overall": 43.3,
+      "width_day8p": 43.67,
+      "winkler_overall": 92.21
+    },
+    "interval_ours_pr": {
+      "cov_day1_3": 0.6632,
+      "cov_overall": 0.8995,
+      "cov_min_region": 0.8578,
+      "width_overall": 47.67,
+      "width_day8p": 48.46,
+      "winkler_overall": 63.29
+    },
+    "interval_ha-emp": {
+      "cov_day1_3": 0.8979,
+      "cov_overall": 0.9296,
+      "cov_min_region": 0.6286,
+      "width_overall": 29.6,
+      "width_day8p": 29.56,
+      "winkler_overall": 48.37
+    },
+    "interval_ha-emp_pr": {
+      "cov_day1_3": 0.8965,
+      "cov_overall": 0.9602,
+      "cov_min_region": 0.8861,
+      "width_overall": 36.56,
+      "width_day8p": 36.73,
+      "winkler_overall": 42.3
+    }
+  },
+  "hz": {
+    "blend_mae": {
+      "a0": 31.2538,
+      "a0.25": 25.3343,
+      "a0.5": 19.677,
+      "a0.75": 14.4145,
+      "a1": 10.6705
+    },
+    "interval_ours": {
+      "cov_day1_3": 0.8918,
+      "cov_overall": 0.8963,
+      "cov_min_region": 0.5808,
+      "width_overall": 112.13,
+      "width_day8p": 113.14,
+      "winkler_overall": 389.31
+    },
+    "interval_ours_pr": {
+      "cov_day1_3": 0.5941,
+      "cov_overall": 0.892,
+      "cov_min_region": 0.7722,
+      "width_overall": 189.8,
+      "width_day8p": 192.62,
+      "winkler_overall": 232.3
+    },
+    "interval_ha-emp": {
+      "cov_day1_3": 0.8999,
+      "cov_overall": 0.9134,
+      "cov_min_region": 0.6303,
+      "width_overall": 29.3,
+      "width_day8p": 29.34,
+      "winkler_overall": 53.66
+    },
+    "interval_ha-emp_pr": {
+      "cov_day1_3": 0.8575,
+      "cov_overall": 0.9444,
+      "cov_min_region": 0.8381,
+      "width_overall": 35.83,
+      "width_day8p": 36.03,
+      "winkler_overall": 45.3
+    }
+  },
+  "cq": {
+    "blend_mae": {
+      "a0": 8.1355,
+      "a0.25": 7.185,
+      "a0.5": 6.3637,
+      "a0.75": 5.6957,
+      "a1": 5.2659
+    },
+    "interval_ours": {
+      "cov_day1_3": 0.8938,
+      "cov_overall": 0.8988,
+      "cov_min_region": 0.5852,
+      "width_overall": 25.63,
+      "width_day8p": 25.71,
+      "winkler_overall": 58.38
+    },
+    "interval_ours_pr": {
+      "cov_day1_3": 0.7972,
+      "cov_overall": 0.8975,
+      "cov_min_region": 0.8835,
+      "width_overall": 31.72,
+      "width_day8p": 31.96,
+      "winkler_overall": 47.82
+    },
+    "interval_ha-emp": {
+      "cov_day1_3": 0.9924,
+      "cov_overall": 0.9866,
+      "cov_min_region": 0.9554,
+      "width_overall": 33.83,
+      "width_day8p": 33.83,
+      "winkler_overall": 34.48
+    },
+    "interval_ha-emp_pr": {
+      "cov_day1_3": 0.9924,
+      "cov_overall": 0.9866,
+      "cov_min_region": 0.9554,
+      "width_overall": 33.83,
+      "width_day8p": 33.83,
+      "winkler_overall": 34.48
+    }
+  },
+  "yt": {
+    "blend_mae": {
+      "a0": 7.9148,
+      "a0.25": 7.0746,
+      "a0.5": 6.3297,
+      "a0.75": 5.7202,
+      "a1": 5.2971
+    },
+    "interval_ours": {
+      "cov_day1_3": 0.9215,
+      "cov_overall": 0.9037,
+      "cov_min_region": 0.6678,
+      "width_overall": 28.79,
+      "width_day8p": 28.72,
+      "winkler_overall": 54.1
+    },
+    "interval_ours_pr": {
+      "cov_day1_3": 0.6472,
+      "cov_overall": 0.905,
+      "cov_min_region": 0.8581,
+      "width_overall": 32.18,
+      "width_day8p": 32.4,
+      "winkler_overall": 43.21
+    },
+    "interval_ha-emp": {
+      "cov_day1_3": 0.9486,
+      "cov_overall": 0.9805,
+      "cov_min_region": 0.7223,
+      "width_overall": 32.95,
+      "width_day8p": 32.95,
+      "winkler_overall": 37.16
+    },
+    "interval_ha-emp_pr": {
+      "cov_day1_3": 0.9486,
+      "cov_overall": 0.986,
+      "cov_min_region": 0.8693,
+      "width_overall": 34.19,
+      "width_day8p": 34.23,
+      "winkler_overall": 36.04
+    }
+  }
+}

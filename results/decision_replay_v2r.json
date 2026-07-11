@@ -1,0 +1,94 @@
+{
+  "sh": {
+    "co1_cu1": {
+      "cost_point": 10.304,
+      "cost_rawq": 10.304,
+      "cost_onlineq": 10.273,
+      "save_rawq_pct": 0.0,
+      "save_onlineq_pct": 0.31
+    },
+    "co1_cu3": {
+      "cost_point": 23.142,
+      "cost_rawq": 21.614,
+      "cost_onlineq": 17.704,
+      "save_rawq_pct": 6.6,
+      "save_onlineq_pct": 23.5
+    },
+    "co3_cu1": {
+      "cost_point": 18.076,
+      "cost_rawq": 15.097,
+      "cost_onlineq": 11.214,
+      "save_rawq_pct": 16.48,
+      "save_onlineq_pct": 37.96
+    }
+  },
+  "hz": {
+    "co1_cu1": {
+      "cost_point": 11.238,
+      "cost_rawq": 11.238,
+      "cost_onlineq": 11.191,
+      "save_rawq_pct": -0.0,
+      "save_onlineq_pct": 0.41
+    },
+    "co1_cu3": {
+      "cost_point": 21.802,
+      "cost_rawq": 20.355,
+      "cost_onlineq": 18.291,
+      "save_rawq_pct": 6.64,
+      "save_onlineq_pct": 16.1
+    },
+    "co3_cu1": {
+      "cost_point": 23.15,
+      "cost_rawq": 18.631,
+      "cost_onlineq": 12.5,
+      "save_rawq_pct": 19.52,
+      "save_onlineq_pct": 46.0
+    }
+  },
+  "cq": {
+    "co1_cu1": {
+      "cost_point": 7.153,
+      "cost_rawq": 7.153,
+      "cost_onlineq": 7.103,
+      "save_rawq_pct": 0.0,
+      "save_onlineq_pct": 0.69
+    },
+    "co1_cu3": {
+      "cost_point": 10.209,
+      "cost_rawq": 11.119,
+      "cost_onlineq": 11.024,
+      "save_rawq_pct": -8.92,
+      "save_onlineq_pct": -7.98
+    },
+    "co3_cu1": {
+      "cost_point": 18.402,
+      "cost_rawq": 12.617,
+      "cost_onlineq": 7.313,
+      "save_rawq_pct": 31.44,
+      "save_onlineq_pct": 60.26
+    }
+  },
+  "yt": {
+    "co1_cu1": {
+      "cost_point": 8.42,
+      "cost_rawq": 8.42,
+      "cost_onlineq": 8.4,
+      "save_rawq_pct": 0.0,
+      "save_onlineq_pct": 0.25
+    },
+    "co1_cu3": {
+      "cost_point": 12.718,
+      "cost_rawq": 13.304,
+      "cost_onlineq": 12.668,
+      "save_rawq_pct": -4.61,
+      "save_onlineq_pct": 0.39
+    },
+    "co3_cu1": {
+      "cost_point": 20.964,
+      "cost_rawq": 15.768,
+      "cost_onlineq": 8.276,
+      "save_rawq_pct": 24.79,
+      "save_onlineq_pct": 60.52
+    }
+  }
+}

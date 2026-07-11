@@ -1,0 +1,94 @@
+{
+  "sh": {
+    "wrcp_best": {
+      "cov": 0.6433,
+      "cov_min_region": 0.3758,
+      "width": 13.61,
+      "reg": 0.2,
+      "has_ot": true
+    },
+    "weighted_best": {
+      "cov": 0.6527,
+      "cov_min_region": 0.37,
+      "width": 13.67
+    },
+    "naive": {
+      "cov": 0.643,
+      "cov_min_region": 0.3758,
+      "width": 13.61
+    },
+    "online_cp": {
+      "cov": 0.9031,
+      "width": 44.64
+    }
+  },
+  "hz": {
+    "wrcp_best": {
+      "cov": 0.7058,
+      "cov_min_region": 0.3929,
+      "width": 13.81,
+      "reg": 0.2,
+      "has_ot": true
+    },
+    "weighted_best": {
+      "cov": 0.7179,
+      "cov_min_region": 0.3988,
+      "width": 14.04
+    },
+    "naive": {
+      "cov": 0.7062,
+      "cov_min_region": 0.3929,
+      "width": 13.81
+    },
+    "online_cp": {
+      "cov": 0.8955,
+      "width": 45.72
+    }
+  },
+  "cq": {
+    "wrcp_best": {
+      "cov": 0.7103,
+      "cov_min_region": 0.4267,
+      "width": 20.15,
+      "reg": 0.02,
+      "has_ot": true
+    },
+    "weighted_best": {
+      "cov": 0.699,
+      "cov_min_region": 0.4089,
+      "width": 20.09
+    },
+    "naive": {
+      "cov": 0.7049,
+      "cov_min_region": 0.4208,
+      "width": 20.1
+    },
+    "online_cp": {
+      "cov": 0.8973,
+      "width": 39.74
+    }
+  },
+  "yt": {
+    "wrcp_best": {
+      "cov": 0.6719,
+      "cov_min_region": 0.5137,
+      "width": 16.0,
+      "reg": 0.02,
+      "has_ot": true
+    },
+    "weighted_best": {
+      "cov": 0.6588,
+      "cov_min_region": 0.519,
+      "width": 15.9
+    },
+    "naive": {
+      "cov": 0.6614,
+      "cov_min_region": 0.525,
+      "width": 15.87
+    },
+    "online_cp": {
+      "cov": 0.9012,
+      "width": 40.47
+    }
+  }
+}
