@@ -1,0 +1,154 @@
+{
+  "sh": {
+    "raw-band": {
+      "day1-3": {
+        "cov": 0.8618,
+        "width": 10.79
+      },
+      "day4-7": {
+        "cov": 0.8406,
+        "width": 12.34
+      },
+      "day8+": {
+        "cov": 0.858,
+        "width": 9.33
+      },
+      "overall_d1+": {
+        "cov": 0.8576,
+        "width": 9.43
+      }
+    },
+    "online-cp": {
+      "day1-3": {
+        "cov": 0.8618,
+        "width": 10.79
+      },
+      "day4-7": {
+        "cov": 0.8812,
+        "width": 13.72
+      },
+      "day8+": {
+        "cov": 0.8968,
+        "width": 10.02
+      },
+      "overall_d1+": {
+        "cov": 0.8959,
+        "width": 10.13
+      }
+    }
+  },
+  "hz": {
+    "raw-band": {
+      "day1-3": {
+        "cov": 0.8784,
+        "width": 12.2
+      },
+      "day4-7": {
+        "cov": 0.8827,
+        "width": 9.78
+      },
+      "day8+": {
+        "cov": 0.8727,
+        "width": 9.66
+      },
+      "overall_d1+": {
+        "cov": 0.873,
+        "width": 9.69
+      }
+    },
+    "online-cp": {
+      "day1-3": {
+        "cov": 0.8784,
+        "width": 12.2
+      },
+      "day4-7": {
+        "cov": 0.8827,
+        "width": 9.78
+      },
+      "day8+": {
+        "cov": 0.891,
+        "width": 9.86
+      },
+      "overall_d1+": {
+        "cov": 0.8906,
+        "width": 9.88
+      }
+    }
+  },
+  "cq": {
+    "raw-band": {
+      "day1-3": {
+        "cov": 0.9069,
+        "width": 9.89
+      },
+      "day4-7": {
+        "cov": 0.8861,
+        "width": 8.44
+      },
+      "day8+": {
+        "cov": 0.8682,
+        "width": 6.43
+      },
+      "overall_d1+": {
+        "cov": 0.869,
+        "width": 6.51
+      }
+    },
+    "online-cp": {
+      "day1-3": {
+        "cov": 0.8354,
+        "width": 9.73
+      },
+      "day4-7": {
+        "cov": 0.8802,
+        "width": 8.42
+      },
+      "day8+": {
+        "cov": 0.8894,
+        "width": 6.73
+      },
+      "overall_d1+": {
+        "cov": 0.8886,
+        "width": 6.8
+      }
+    }
+  },
+  "yt": {
+    "raw-band": {
+      "day1-3": {
+        "cov": 0.8764,
+        "width": 7.14
+      },
+      "day4-7": {
+        "cov": 0.8847,
+        "width": 6.28
+      },
+      "day8+": {
+        "cov": 0.8577,
+        "width": 6.41
+      },
+      "overall_d1+": {
+        "cov": 0.8585,
+        "width": 6.42
+      }
+    },
+    "online-cp": {
+      "day1-3": {
+        "cov": 0.8764,
+        "width": 7.14
+      },
+      "day4-7": {
+        "cov": 0.8847,
+        "width": 6.28
+      },
+      "day8+": {
+        "cov": 0.8874,
+        "width": 7.01
+      },
+      "overall_d1+": {
+        "cov": 0.8873,
+        "width": 7.0
+      }
+    }
+  }
+}
