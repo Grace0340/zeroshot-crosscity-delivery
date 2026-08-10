@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Publication figures for the zero-shot cross-city delivery demand study.
+"""Publication figures for the zero-shot cross-city delivery demand paper.
 
 All figures are generated from results/*.json and results/npz/*.npz produced
-by the experiment pipeline (adopted recipe, 5 seeds). Vector PDF + PNG preview.
+by the experiment pipeline (v3 recipe, 5 seeds). Vector PDF + PNG preview.
 """
 import json
 import os
@@ -123,7 +123,9 @@ def fig_convergence():
         ax.set_xlabel("Days since deployment")
         ax.set_ylim(0.45, 1.0)
     axes[0].set_ylabel("Coverage (7-day rolling)")
-    axes[0].legend(loc="lower right", fontsize=6.3)
+    handles, labs = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labs, loc="upper center", ncols=3, fontsize=6.5,
+               bbox_to_anchor=(0.5, 1.09))
     fig.tight_layout()
     save(fig, "fig_online_cp_convergence")
 
@@ -162,7 +164,9 @@ def fig_cov_width():
         ax.set_xlabel("Mean interval width")
         ax.set_ylim(0.55, 1.02)
     axes[0].set_ylabel("Empirical coverage")
-    axes[-1].legend(loc="lower right", fontsize=6)
+    handles, labs = axes[-1].get_legend_handles_labels()
+    fig.legend(handles, labs, loc="upper center", ncols=5, fontsize=6.5,
+               bbox_to_anchor=(0.5, 1.09))
     fig.tight_layout()
     save(fig, "fig_coverage_width")
 
@@ -171,21 +175,22 @@ def fig_cov_width():
 def fig_staged():
     """Claim: with rolling history the model overtakes climatology in the most
     complex city (SH); the online ensemble is uniformly safe and often best."""
-    labels = [("model-staged", "Model (rolling history)", C_BLUE),
-              ("ha-source", "Source climatology", C_GRAY),
-              ("ha-target", "Target climatology (accum.)", C_ORANGE),
-              ("ensemble", "Online ensemble (ours)", C_GREEN)]
+    labels = [("model-staged", "Model (rolling history)", C_BLUE, "-", 1.1),
+              ("ha-source", "Source climatology", C_GRAY, "-", 1.1),
+              ("ha-target", "Target climatology (accum.)", C_ORANGE, "-", 1.1),
+              ("persistence", "Persistence (prev. day)", C_PURPLE, "--", 1.4),
+              ("ensemble3", "Online ensemble (ours)", C_GREEN, "-", 1.8)]
     fig, axes = plt.subplots(1, 4, figsize=(DOUBLE_W, 2.0), sharex=False)
     for ax, c in zip(axes, CITIES):
         d = np.load(NPZ / f"staged_{c}_v3.npz")
         days = np.arange(len(d["model-staged"]))
-        for key, lab, col in labels:
-            ax.plot(days, rolling(d[key]), lw=1.2, color=col, label=lab)
+        for key, lab, col, ls, lw in labels:
+            ax.plot(days, rolling(d[key]), lw=lw, color=col, ls=ls, label=lab)
         ax.set_title(CITY_NAME[c])
         ax.set_xlabel("Days since deployment")
     axes[0].set_ylabel("Daily MAE (7-day rolling)")
     handles, labs = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labs, loc="upper center", ncols=4, fontsize=7,
+    fig.legend(handles, labs, loc="upper center", ncols=5, fontsize=6.5,
                bbox_to_anchor=(0.5, 1.09))
     fig.tight_layout()
     save(fig, "fig_staged_mae")
@@ -351,7 +356,7 @@ def fig_framework():
     # outcomes
     box(8.0, 3.4, 1.85, 1.15, "Calibrated 90%\nintervals in 1-3 days", "#D6E9DC", bold=True)
     box(8.0, 1.85, 1.85, 1.15, "Newsvendor capacity\ncost \u221225% to \u221265%", "#D6E9DC", bold=True)
-    box(8.0, 0.3, 1.85, 1.15, "Point MAE \u2264 best\nsingle predictor", "#D6E9DC")
+    box(8.0, 0.3, 1.85, 1.15, "Ensemble point MAE\ntracks best member", "#D6E9DC")
     arrow(7.35, 3.97, 8.0, 3.97)
     arrow(7.35, 2.42, 8.0, 2.42)
     arrow(7.35, 0.87, 8.0, 0.87)

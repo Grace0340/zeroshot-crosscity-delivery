@@ -1,0 +1,19 @@
+\begin{tabular}{lcccc}
+\toprule
+Method (MAE / RMSE) & Shanghai & Hangzhou & Chongqing & Yantai \\
+\midrule
+\multicolumn{5}{l}{\emph{Strict zero-shot (no target observations)}} \\
+HA climatology (source) & 8.57 / 17.80 & 9.91 / 19.84 & 6.43 / 11.66 & 6.69 / 12.63 \\
+kNN profile & 11.02 / 20.08 & 9.61 / 18.80 & 7.83 / 14.63 & 10.51 / 18.47 \\
+ST backbone (ours, 5 seeds) & 10.11$\pm$0.20 / 21.41$\pm$0.74 & 10.42$\pm$0.37 / 20.95$\pm$0.90 & 9.06$\pm$1.74 / 19.49$\pm$3.64 & 8.57$\pm$1.88 / 17.45$\pm$3.07 \\
+\midrule
+\multicolumn{5}{l}{\emph{Staged deployment, day 8+ (rolling target history), MAE}} \\
+Model (rolling history) & 4.45 & 10.43 & 8.70 & 8.59 \\
+Target climatology (accum.) & 3.75 & 4.22 & 2.33 & 2.40 \\
+Persistence (previous day) & 3.12 & 2.84 & 2.19 & 2.19 \\
+Seasonal-naive (1 week) & 3.79 & 3.67 & 2.62 & 2.63 \\
+Chronos-Bolt (pretrained) & \textbf{2.73} & \textbf{2.66} & \textbf{1.90} & \textbf{1.96} \\
+Ensemble (model+clim.) & 3.38 & 4.97 & 3.01 & 2.94 \\
+Full ensemble (ours) & 2.89 & 3.21 & 2.24 & 2.19 \\
+\bottomrule
+\end{tabular}
